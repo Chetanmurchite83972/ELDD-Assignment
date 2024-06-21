@@ -1,0 +1,1 @@
+cmd_/home/chetan/ELDD/day3/demo5/splitfile.mod := printf '%s\n'   day3_1a.o day3_1b.o day3_1c.o | awk '!x[$$0]++ { print("/home/chetan/ELDD/day3/demo5/"$$0) }' > /home/chetan/ELDD/day3/demo5/splitfile.mod

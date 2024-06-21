@@ -1,0 +1,1 @@
+cmd_/home/chetan/ELDD/day3/demo5/splitfile.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/chetan/ELDD/day3/demo5/splitfile.ko /home/chetan/ELDD/day3/demo5/splitfile.o /home/chetan/ELDD/day3/demo5/splitfile.mod.o;  true
