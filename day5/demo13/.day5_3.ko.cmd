@@ -1,0 +1,1 @@
+cmd_/home/chetan/ELDD/day5/demo13/day5_3.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/chetan/ELDD/day5/demo13/day5_3.ko /home/chetan/ELDD/day5/demo13/day5_3.o /home/chetan/ELDD/day5/demo13/day5_3.mod.o;  true
