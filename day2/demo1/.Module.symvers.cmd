@@ -1,0 +1,1 @@
+cmd_/home/chetan/ELDD/day2/demo1/Module.symvers :=  sed 's/ko$$/o/'  /home/chetan/ELDD/day2/demo1/modules.order | scripts/mod/modpost -m -a    -o /home/chetan/ELDD/day2/demo1/Module.symvers -e -i Module.symvers -T - 
